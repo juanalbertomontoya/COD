@@ -8,56 +8,172 @@
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="Fonts/Avenir.ttc" type="text/css">
 </head>
+
 <body>
   
   <div class="body-margin">
 
     <div class="menu">
       <ul class="menu-lista">
-        <li id="menu-somos" class="menu-elemento">Somos</li>
-        <li id="menu-servicios"  class="menu-elemento">Servicios & Proyectos</li>
-        <li id="menu-contactanos" class="menu-elemento">Contáctanos</li>
+        <li id="menu-somos" class="menu-elemento" ><a>Somos <span id="barra1" class="barra"></span></a></li>
+        <li id="menu-servicios"  class="menu-elemento"><a href="">Servicios & Proyectos <span id="barra2" class="barra"></span></a></li>
+        <li id="menu-contactanos" class="menu-elemento"><a href="">Contáctanos <span id="barra3" class="barra"></span></a></li>
       </ul>
-      <div class="logo-menu"><img src="img/logo.svg" alt="COD"></div>
+      <div class="logo-menu"><a href=""><img src="img/logo.svg" alt="COD"></a></div>
     </div>
 
     <div class="slider">
       <div class="imagen-slider">
-        <img src="img/Recurso 1.png" alt="">
+        <div class="contenedor-imagen-slider-inicio">
+          <img src="img/Recurso 1.png" alt="">
+        </div>
+        <div class="contenedor-imagen-slider-somos">
+          <img src="img/Recurso 2.png" alt="">
+        </div>
       </div>
-       <div class="tenemos">
-      <h1>Tenemos más de <br>
-        <span>30 años de experiencia</span></h1>
-      <h2>Innovando con las técnicas más modernas</h2>
+      
+      <div class="somos-tenemos">
+        <div class="contenedor-somos-tenemos">
+          <div class="contenedor-tenemos-texto">
+            <div class="titulo-tenemos">Tenemos más de </div>
+            <div class="titulo-tenemos-bold">30 años de 
+              <div class="slider-titulo">
+                <span class="titulo-tenemos-bold">experiencia</span>
+                <span class="titulo-tenemos-bold">palabra2</span>
+                <span class="titulo-tenemos-bold">palabra3</span>
+                <span class="titulo-tenemos-bold">palabra4</span>
+                <span class="titulo-tenemos-bold">palabra5</span>
+              </div>
+            </div>
+            <h2>Innovando con las técnicas más modernas</h2>
+          </div>
+          
+          <div class="contenedor-somos-texto">
+            <div class="titulo-somos">Somos texto texto texo</div>
+            <div class="titulo-somos-bold">a la construcción texto</div>
+            <h2>texto texto texto texto texto texto texto<br>
+                texto texto texto texto texto texto texto<br>
+                texto texto texto texto texto texto texto<br>
+                texto texto texto texto texto texto texto<br>
+                texto texto texto texto texto texto texto<br>
+            </h2>
+          </div>
+        </div>
       </div>
-    </div>
+      
+      </div>
 
     <div class="galeria-info">
       <div class="servicios-info">
         <div class="seccion-info">
           <h3>Elaboración de Proyectos</h3>
           <ul class="tipos-proyectos">
-            <li><img class="icono-subtitulo" src="img/icono.svg" alt="COD"><p class="subtitulo-servicio">Residencial</p></li>
-            <li><img class="icono-subtitulo" src="img/icono.svg" alt="COD"><p class="subtitulo-servicio">Comercial</p></li>
-            <li><img class="icono-subtitulo" src="img/icono.svg" alt="COD"><p class="subtitulo-servicio">Industrial</p></li>
-            <li><img class="icono-subtitulo" src="img/icono.svg" alt="COD"><p class="subtitulo-servicio">Educacional</p></li>
+
+            <li id="residencial">
+              <div class="contenedor">
+                <img class="icono-subtitulo" src="img/icono.svg" alt="COD"><p class="subtitulo-servicio">Residencial
+                  <span class="barra-texto"></span>
+                </p>
+                <span class="barra-texto"></span>
+              </div>
+              
+
+              <div class="descripcion">Residencial: Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam adipisci quibusdam aliquam a inventore dignissimos!</div>
+
+            </li>
+
+            <li id="comercial">
+              <div class="contenedor">
+                <img class="icono-subtitulo" src="img/icono.svg" alt="COD"><p class="subtitulo-servicio">Comercial
+                  <span class="barra-texto"></span>
+                </p>
+              </div>
+            
+              <div class="descripcion">Comercial: Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam adipisci quibusdam aliquam a inventore dignissimos!</div>
+
+            </li>
+
+            <li id="industrial">
+              <div class="contenedor">
+                <img class="icono-subtitulo" src="img/icono.svg" alt="COD"><p class="subtitulo-servicio">Industrial
+                  <span class="barra-texto"></span>
+                </p>
+              </div>
+              
+              <div class="descripcion">Industrial: Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam adipisci quibusdam aliquam a inventore dignissimos!</div>
+
+            </li>
+
+            <li id="educacional">
+              <div class="contenedor">
+                <img class="icono-subtitulo" src="img/icono.svg" alt="COD"><p class="subtitulo-servicio">Educacional
+                  <span class="barra-texto"></span>
+                </p>
+              </div>
+
+              <div class="descripcion">Educacional: Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam adipisci quibusdam aliquam a inventore dignissimos!</div>
+            </li>
           </ul>
         </div>
         
         <div class="seccion-info">
           <h3>Supervisón de Obras</h3>
           <ul class="tipos-proyectos">
-            <li><img class="icono-subtitulo" src="img/icono.svg" alt="COD"><p class="subtitulo-servicio">Privadas</p></li>
-            <li><img class="icono-subtitulo" src="img/icono.svg" alt="COD"><p class="subtitulo-servicio">Estado / Públicas</p></li>
+            <li id="privadas">
+              <div class="contenedor">
+                <img class="icono-subtitulo" src="img/icono.svg" alt="COD"><p class="subtitulo-servicio">Privadas
+                  <span class="barra-texto"></span>
+                </p>
+              </div>
+
+              <div class="descripcion">Privadas: Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam adipisci quibusdam aliquam a inventore dignissimos!</div>
+            </li>
+
+            <li id="estado">
+              <div class="contenedor">
+                <img class="icono-subtitulo" src="img/icono.svg" alt="COD"><p class="subtitulo-servicio">Estado / Públicas
+                  <span class="barra-texto"></span>
+                </p>
+              </div>
+
+              <div class="descripcion">Estado: Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam adipisci quibusdam aliquam a inventore dignissimos!</div>
+            </li>
           </ul>
         </div>
 
         <div class="seccion-info">
           <h3>Elaboración de Proyectos</h3>
           <ul class="tipos-proyectos">
-            <li><img class="icono-subtitulo" src="img/icono.svg" alt="COD"><p class="subtitulo-servicio">Rectificación de areas de predio</p></li>
-            <li><img class="icono-subtitulo" src="img/icono.svg" alt="COD"><p class="subtitulo-servicio">Inscripciones de Registros Públicos</p></li>
-            <li><img class="icono-subtitulo" src="img/icono.svg" alt="COD"><p class="subtitulo-servicio">Independización y declaratorias de fábrica</p></li>
+            <li id="rectificacion">
+              <div class="contenedor">
+                <img class="icono-subtitulo" src="img/icono.svg" alt="COD"><p class="subtitulo-servicio">Rectificación de areas de predio
+                  <span class="barra-texto"></span>
+                </p>
+              </div>
+
+              <div class="descripcion">Rectificación: Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam adipisci quibusdam aliquam a inventore dignissimos!</div>
+            </li>
+
+            <li id="inscripciones">
+              <div class="contenedor">
+                <img class="icono-subtitulo" src="img/icono.svg" alt="COD"><p class="subtitulo-servicio">Inscripciones de Registros Públicos
+                  <span class="barra-texto"></span>
+                </p>
+              </div>
+
+              <div class="descripcion">Inscripciones: Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam adipisci quibusdam aliquam a inventore dignissimos!</div>
+            </li>
+
+            <li id="independizacion">
+              <div class="contenedor">
+                <img class="icono-subtitulo" src="img/icono.svg" alt="COD"><p class="subtitulo-servicio">Independización y declaratorias de fábrica
+                  <span class="barra-texto"></span>
+                </p>
+              </div>
+
+              <div class="descripcion">Independización: Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam adipisci quibusdam aliquam a inventore dignissimos!</div>
+
+            </li>
         </div>
 
       </div>
@@ -67,25 +183,73 @@
           <div class="fondo-galeria">
             <img class="esquina superior" src="img/icono.svg" alt="">
             <img class="esquina inferior" src="img/icono.svg" alt="">
-            <div class="contenido-galeria">
-              <div class="cuadro-galeria"></div>
-              <div class="cuadro-galeria"></div>
-              <div class="cuadro-galeria"></div>
-              <div class="cuadro-galeria"></div>
-              <div class="cuadro-galeria"></div>
-              <div class="cuadro-galeria"></div>
-              <div class="cuadro-galeria"></div>
-              <div class="cuadro-galeria"></div>
-              <div class="cuadro-galeria"></div>
-              <div class="cuadro-galeria"></div>
-              <div class="cuadro-galeria"></div>
-              <div class="cuadro-galeria"></div>
+            
+            <div class="contenido-galeria-limites">
+              <div id="contenido-galeria">
+              
+                <section>
+                  <div class="col1">
+                    <div class="cuadro-galeria" id="galeria-imagen1"></div>
+                    <div class="cuadro-galeria" id="galeria-imagen2"></div>
+                    <div class="cuadro-galeria" id="galeria-imagen3"></div>
+                    <div class="cuadro-galeria" id="galeria-imagen4"></div>
+                  </div>
+                </section>
+                
+                <section>
+                  <div class="col2">
+                    <div class="cuadro-galeria" id="galeria-imagen5"></div>
+                    <div class="cuadro-galeria" id="galeria-imagen6"></div>
+                    <div class="cuadro-galeria" id="galeria-imagen7"></div>
+                    <div class="cuadro-galeria" id="galeria-imagen8"></div>
+                  </div>
+                </section>
+  
+                <section>
+                  <div class="col3">
+                    <div class="cuadro-galeria" id="galeria-imagen9"></div>
+                    <div class="cuadro-galeria" id="galeria-imagen10"></div>
+                    <div class="cuadro-galeria" id="galeria-imagen11"></div>
+                    <div class="cuadro-galeria" id="galeria-imagen12"></div>
+                  </div>
+                </section>
+  
+                <section class="off"> 
+                  <div class="col4">
+                    <div class="cuadro-galeria" id="galeria-imagen13"></div>
+                    <div class="cuadro-galeria" id="galeria-imagen14"></div>
+                    <div class="cuadro-galeria" id="galeria-imagen15"></div>
+                    <div class="cuadro-galeria" id="galeria-imagen16"></div>
+                  </div>
+                </section>
+  
+                
+              </div>
             </div>
+
           </div>
+          <div id="btn-prev">&#60</div>
+          <div id="btn-next">&#62</div>
       </div>
     </div>
 
+    
+
+    </div>
+    <div class="barra-final">
+      <div class="escribenos"><img class="icono-blanco" src="img/icono-blanco.svg" alt="COD"><p>Escribenos a <a href="mailto:Hola@Cod.com">Hola@Cod.com</a></p></div>
+      <div class="lima-peru"><p>Lima, Perú</p></div>
+      <div class="copyright"><p>COD © 2020</p></div>
+      <div class="powered"><p>Powered by VIGU</p></div>
+    </div>
+
   </div>
- 
+  <!-- jquery y script del slider -->
+  
+  <script src="jquery.js"></script>
+  <script src="slider-inicio.js"></script>
+  <script src="slider.js"></script>
+  <script src="anima-menu.js"></script>
+  <script src="globo-texto.js"></script>
 </body>
 </html>
