@@ -51,17 +51,19 @@
           <div class="contenedor-somos-texto">
             <div class="titulo-somos">Somos texto texto texo</div>
             <div class="titulo-somos-bold">a la construcción texto</div>
-            <h2>texto texto texto texto texto texto texto<br>
+            <div class="contenedor-somos-h2">
+              <h2>texto texto texto texto texto texto texto<br>
                 texto texto texto texto texto texto texto<br>
                 texto texto texto texto texto texto texto<br>
                 texto texto texto texto texto texto texto<br>
                 texto texto texto texto texto texto texto<br>
             </h2>
+            </div>
           </div>
         </div>
       </div>
       
-      </div>
+    </div>
 
     <div class="galeria-info">
       <div class="servicios-info">
@@ -228,14 +230,35 @@
             </div>
 
           </div>
-          <div id="btn-prev">&#60</div>
-          <div id="btn-next">&#62</div>
+          <div id="btn-prev">
+            <svg style="text-align: center; text-justify: center; fill:white; transform: scale(-1); " class="icono-slider" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24"><path d="M8.122 24l-4.122-4 8-8-8-8 4.122-4 11.878 12z"/></svg></div>
+          <div id="btn-next">
+            <svg style="text-align: center; fill:white; " class="icono-slider" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24"><path d="M8.122 24l-4.122-4 8-8-8-8 4.122-4 11.878 12z"/></svg></div>
       </div>
     </div>
 
-    
 
+
+
+
+    <div class="galeria-fullscreen">
+      <div class="contenedor-galeria-fullscreen">
+        <svg class="exit" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z"/></svg>
+        <div class="imagenfull-textoimagenfull">
+          <div class="imagenfull">
+            <img src="img/galeria/col-1-1.jpeg" alt="">
+          </div>
+          <div class="textoimagenfull">
+            <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur facere tempore, exercitationem sed, dolore recusandae officia excepturi quod consequatur pariatur repellendus dolores at asperiores hic fuga voluptas, ut quasi nobis!</h1>
+          </div>
+        </div>
+  
+      </div>
     </div>
+
+  </div>
+
+
     <div class="barra-final">
       <div class="escribenos"><img class="icono-blanco" src="img/icono-blanco.svg" alt="COD"><p>Escribenos a <a href="mailto:Hola@Cod.com">Hola@Cod.com</a></p></div>
       <div class="lima-peru"><p>Lima, Perú</p></div>
@@ -243,13 +266,14 @@
       <div class="powered"><p>Powered by VIGU</p></div>
     </div>
 
-  </div>
-  <!-- jquery y script del slider -->
+    <!-- jquery y scripts -->
   
   <script src="jquery.js"></script>
+  <script src="jquery.zoom.js"></script>
   <script src="slider-inicio.js"></script>
   <script src="slider.js"></script>
   <script src="anima-menu.js"></script>
   <script src="globo-texto.js"></script>
+  <script src="galeria-fullscreen.js"></script>
 </body>
 </html>
