@@ -1,13 +1,13 @@
-@media (min-width: 1367) {
+@media (min-width: 1510px) {
 
 
   * {
     font-family: sans-serif;
   }
   .body-margin {
-    padding: 14.934vw 5.124vw 5.124vw 5.124vw;
+    padding: 14.934vw 0 0 0;
     overflow: hidden;
-    width: auto;
+    width: 1349px;
     margin: auto;
   }
   
