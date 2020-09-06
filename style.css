@@ -31,7 +31,7 @@
   padding: 0 5.124vw;
   position: relative;
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 0.732vw;
   grid-template-columns: repeat(3, 1fr);
   grid-template-areas: "menu menu logo";
   align-items: flex-end;
@@ -58,7 +58,7 @@
 .menu-elemento a {
   position: relative;
   font-family: 'Avenir Medium';
-  font-size: 1.31vw;
+  font-size: 17.895px;
   letter-spacing: 0.05em;
   color: #ababab;
   padding: 10px 8px 8px 8px;
@@ -125,7 +125,7 @@
 }
 
 .logo-menu a {
-  margin: 0 0 36px auto;
+  margin: 0 0 2.635vw auto;
   transition: all 0.3s ease-in-out;
 }
 
@@ -135,21 +135,21 @@
 }
 
 .logo-menu img {
-  height: 70px;
+  height: 5.124vw;
   transition: all 0.3s ease-in-out;  
 }
 
 .logo-menu img.scroll {
-  height: 35px;  
+  height: 2.562vw;  
 }
 
 /** Estilos del Slider **/
 
 .slider {
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 0.732vw;
   grid-template-columns: repeat(2, 1fr);
-  margin-bottom: 120px;
+  margin-bottom: 8.785vw;
 }
 
 
@@ -269,7 +269,7 @@
 
 
 .contenedor-somos-h2 {
-  width: 586px;
+  width: 42.899vw;
   margin-left: 20%;
   opacity: 0;
   transition: all 1s ease-out;
@@ -338,23 +338,23 @@
 @keyframes desliza-texto {
   0% {
     opacity: 0;
-    transform: translateY(-31px);
+    transform: translateY(-2.269vw);
   }
   2% {
     opacity: 1;
-    transform: translateY(0px);
+    transform: translateY(0);
   }
   18% {
     opacity: 1;
-    transform: translateY(0px);
+    transform: translateY(0);
   }
   20% {
     opacity: 0;
-    transform: translateY(31px);
+    transform: translateY(2.269vw);
   }
   100% {
     opacity: 0;
-    transform: translateY(31px);
+    transform: translateY(2.269vw);
   }
 }
 
@@ -369,20 +369,20 @@
 
 .galeria-info {
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 0.732vw;
   grid-template-columns: 1.1fr 0.8fr;
 }
 
 .servicios-info {
   display: grid;
-  padding-top: 60px;
-  grid-gap: 40px;
+  padding-top: 4.392vw;
+  grid-gap: 2.928vw;
   grid-template-rows: 170px 140px 170px;
 }
 
 .seccion-info {
   display: grid;
-  grid-gap: 5px;
+  grid-gap: 0.366vw;
   grid-template-columns: 24vw 26vw;
 }
 
@@ -395,7 +395,7 @@
 }
 
 .tipos-proyectos {
-  margin-top: 40px;
+  margin-top: 2.928vw;
   transition: all 0.5s;
 }
 
@@ -406,7 +406,7 @@
   font-size: 1.22vw;
   display: flex;
   align-items: center;
-  margin-bottom: 12px;
+  margin-bottom: 0.878vw;
   transition: all 0.5s;
 }
 
@@ -445,7 +445,7 @@
 
 .subtitulo-servicio {
   display: inline;
-  margin-left: 3px;
+  margin-left: 0.22vw;
 }
 
 
@@ -458,16 +458,16 @@
 
 .descripcion {
   visibility: hidden;
-  width: 270px;
+  width: 19.766vw;
   opacity: 0;
   transition: all 0.6s ease-in;
   position: absolute;
-  padding: 20px;
+  padding: 1.464vw;
   background: #35bf42;
   color: white;
-  margin-left: -331px;
-  margin-top: 85px;
-  border-radius: 5px;
+  margin-left: -24.231vw;
+  margin-top: 6.223vw;
+  border-radius: 0.366vw;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   transition: all 1.8s cubic-bezier(.25,.8,.25,1);
   transform: scale(0.95);
@@ -479,15 +479,7 @@
 
 .descripcion.on{
   visibility: visible;
-  width: 270px;
   opacity: 1;
-  position: absolute;
-  padding: 20px;
-  background: #35bf42;
-  color: white;
-  margin-left: -331px;
-  margin-top: 85px;
-  border-radius: 5px;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   transform: scale(1);
 }
@@ -498,15 +490,15 @@
 /** Estilos de la de la Galeria **/
 
 .galeria {
-  width: 500px;
-  height: 640px;
+  width: 36.603vw;
+  height: 46.852vw;
   position: relative;
   overflow: hidden;
 }
 
 .esquina {
   position: absolute;
-  height: 100px;
+  height: 7.321vw;
 }
 
 .esquina.inferior {
@@ -518,7 +510,7 @@
 
 #contenido-galeria {
   display: grid;
-  grid-template-columns: repeat(8, 140px);
+  grid-template-columns: repeat(8, 10.249vw);
 }
 
 .contenido-galeria-limites {
@@ -528,10 +520,10 @@
   right: 0;
   left: 0;
   bottom: 0;
-  width: 420px;
+  width: 30.747vw;
   height: auto;
   
-  padding: 40px 40px 0 40px;
+  padding: 2.928vw 2.928vw 0 2.928vw;
   overflow: hidden;
 }
 
@@ -551,42 +543,39 @@
   background-size: cover;
   background: grey;
   z-index: 3;
-  margin: 10px;
+  margin: 0.732vw;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   transition: all 0.7s cubic-bezier(.25,.8,.25,1);
 }
 
 #btn-prev, #btn-next {
-  z-index: 5;
-  width: 35px;
-  height: 35px;
-  background: hsla(126, 57%, 48%, 0.7);
   position: absolute;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 2.562vw;
+  height: 2.562vw;
   top: 50%;
-  transform: translateY(-50%);
-  line-height: 35px;
-  font-size: 22px;
-  font-weight: bold;
-  text-align: center;
-  text-justify: auto;
   border-radius: 50%;
-  font-family: monospace;
+  background: hsla(126, 57%, 48%, 0.7);
   cursor: pointer;
-  color: white;
-  transition: all 0.3s ease-in;  
+  transition: all 0.3s ease-in; 
 }
 
-#btn-prev:hover, #btn-next:hover {
-  background: hsl(126, 57%, 48%);
-}
 
 #btn-prev {
-  left: 0px
+  left: 0px; 
 }
 
 #btn-next {
   right: 0px;
 }
+
+
+#btn-prev:hover, #btn-next:hover {
+  background: hsl(126, 57%, 48%);
+}
+
 
 /** Estilos de cada cuadro de la Galeria **/
 
@@ -602,22 +591,22 @@ section.off {
 
 .col1 {
   display: grid;
-  grid-template-rows: repeat(4, 140px);
+  grid-template-rows: repeat(4, 10.249vw);
 }
 
 .col2 {
   display: grid;
-  grid-template-rows: repeat(4, 140px);
+  grid-template-rows: repeat(4, 10.249vw);
 }
 
 .col3 {
   display: grid;
-  grid-template-rows: repeat(4, 140px);
+  grid-template-rows: repeat(4, 10.249vw);
 }
 
 .col4 {
   display: grid;
-  grid-template-rows: repeat(4, 140px);
+  grid-template-rows: repeat(4, 10.249vw);
 }
 
 #galeria-imagen1 {
@@ -740,7 +729,7 @@ section.off {
   position: relative;
   display: flex;
   width: 100%;
-  height: 195px;
+  height: 14.275vw;
   background-color: #35bf42;
   align-items: center;
   justify-content: center;
@@ -748,7 +737,7 @@ section.off {
 }
 
 .icono-blanco {
-  height: 60px;
+  height: 4.392vw;
 }
 
 .escribenos {
@@ -759,7 +748,7 @@ section.off {
 .escribenos p {
   display: inline;
   font-family: 'Avenir';
-  font-size: 21px;
+  font-size: 1.537vw;
   color: white;
 }
 
@@ -770,27 +759,27 @@ section.off {
 }
 
 .lima-peru {
-  margin-top: 20px;
+  margin-top: 1.464vw;
   font-family: 'Avenir Black';
-  font-size: 19px;
+  font-size: 1.391vw;
   color: white;
 }
 .copyright {
   font-family: 'Avenir';
-  font-size: 15px;
+  font-size: 1.098vw;
   color: white;
   position: absolute;
-  left: 50px;
-  bottom: 15px;
+  left: 3.66vw;
+  bottom: 1.098vw;
 }
 
 .powered {
   font-family: 'Avenir';
-  font-size: 15px;
+  font-size: 1.098vw;
   color: white;
   position: absolute;
-  right: 50px;
-  bottom: 15px;
+  right: 3.66vw;
+  bottom: 1.098vw;
 }
 
 
@@ -822,7 +811,7 @@ section.off {
 }
 
 .contenedor-galeria-fullscreen {
-  margin: 30px;
+  margin: 2.196vw;
   position: relative;
 }
 
@@ -830,8 +819,8 @@ section.off {
   display: grid;
   position: absolue;
   grid-template-columns: 1.45fr 0.55fr;
-  grid-gap: 30px;
-  padding-top: 24px;
+  grid-gap: 2.196vw;
+  padding-top: 1.757vw;
   bottom: 0;
 }
 
@@ -839,8 +828,8 @@ section.off {
   font-family: 'Avenir Medium';
   font-size: 2.20vw;
   color: white;
-  font-size: 28px;
-  padding: 20px;
+  font-size: 2.05vw;
+  padding: 1.464vw;
   opacity: 0;
   transform: translateX(20%);
   transition: all 0.7s ease-in-out;
@@ -903,8 +892,8 @@ section.off {
   display: flex;
   align-content: center;
   justify-content: center;
-  width: 35px;
-  height: 35px;
+  width: 2.562vw;
+  height: 2.562vw;
   top: 50%;
   border-radius: 50%;
   background: hsla(0, 0%, 41%, 0.2);
@@ -971,344 +960,5 @@ section.off {
     height: 100%;
     opacity: 0;
     visibility: hidden;
-  }
-}
-
-@media (min-width: 1367px) {
-
-  .body-margin {
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 69px;
-    padding-bottom: 69px;
-    width: 1209px;
-    overflow: hidden;  
-  }
-  
-  
-  
-  /** Estilos del menu **/
-  
-  .menu {
-    grid-gap: 10px;
-    grid-template-columns: repeat(3, 1fr);
-  }
-  
-  .menu-lista {
-    margin-left: 239px;
-    border-top: 2px solid #9B9B9B;
-    width: 439px;
-    padding: 0px;
-    
-  }
-  
-  .menu-elemento a {
-    font-size: 17px;
-    letter-spacing: 0.05em;
-    padding: 10px 8px 8px 8px;
-    border: 2px;
-  }
-  
-  
-  .barra {
-    top: 0;
-    left: 0;
-    width: 0%;
-    height: 100%;
-  }
-  
-  .barra.on {
-    visibility: visible;
-    width: 100%;
-  }
-  
-  #menu-somos a {
-    margin: -2px auto 0 0;
-    border-radius: 0 0 0 10px;
-  }
-  
-  #menu-servicios a {
-    margin: -2px auto 0 0 ;
-  }
-  
-  #menu-contactanos a {
-    margin: -2px 0 0 auto;
-    border: 2px solid #9B9B9B;
-    border-radius: 0 0 10px 0;
-  }
-  
-  
-  .logo-menu {
-    grid-area: logo;
-    width: 100%;
-    display: flex
-  }
-  
-  .logo-menu a {
-    margin: 0 0 36px auto;
-    
-  }
-  
-  .logo-menu img {
-    height: 70px;  
-  }
-  
-  /** Estilos del Slider **/
-  
-  .slider {
-    grid-gap: 10px;
-    grid-template-columns: repeat(2, 1fr);
-    margin-bottom: 120px;
-  }
-  
-  
-  .imagen-slider {
-    width: 737px;    
-  }
-  
-  .contenedor-imagen-slider-inicio {
-    width: 737px;
-  }
-  
-  .contenedor-imagen-slider-somos {
-    top: 0;
-    z-index: -1;
-    width: 737px;
-  }
-  
-  .slider img {
-    width: 737px;
-    margin: 25px 0 0;
-  }
-  
-  .somos-tenemos {
-    width: 586px;
-    margin-left: -125px;
-  }
-  
-  .contenedor-somos-tenemos {
-    grid-template-columns: repeat(2, 586px);
-    transition: all 1.4s ease-in;
-  }
-  
-  .contenedor-somos-tenemos.desliza {
-    margin-left: -586px;
-    transition: all 1.4s ease-in;
-  }
-
-  .titulo-tenemos, .titulo-somos {
-    font-size: 51px;
-    line-height: 1.20em;
-  }
-  
-  .titulo-somos {
-    text-indent: 20%;
-  }
-  
-  
-  .titulo-tenemos-bold, .titulo-somos-bold {
-    font-weight: 800;
-    font-size: 51px;
-    line-height: 1.20em;
-  }
-  
-  .somos-tenemos h2 {
-    z-index: 2;
-    font-size: 30px;
-  }
-
-  .contenedor-somos-h2 {
-    width: 586px;
-  }
-
-  
-  /** Estilos de la info de la Galeria **/
-  
-  .galeria-info {
-    grid-gap: 10px;
-    grid-template-columns: 1.1fr 0.8fr;
-  }
-  
-  .servicios-info {
-    padding-top: 60px;
-    grid-gap: 40px;
-    grid-template-rows: 170px 140px 170px;
-  }
-  
-  .seccion-info {
-    grid-gap: 5px;
-    grid-template-columns: 327px 355px;
-  }
-  
-  .galeria-info h3 {
-    padding-top: 0;
-    font-size: 26px;
-  }
-  
-  .tipos-proyectos {
-    margin-top: 40px;
-  }
-  
-  .tipos-proyectos li {
-    font-size: 16px;
-    margin-bottom: 12px;
-  }
-  
-  .barra-texto {
-    top: 21px;
-    right: 0px;
-    left: 0px;
-    width: 0%;
-    height: 2px;
-  }
-  
-  .barra-texto.on {
-    width: 100%;
-    transition: 0.5s;
-  }
-  
-  
-  .icono-subtitulo {
-    height: 21px;
-  }
-  
-  .subtitulo-servicio {
-    margin-left: 3px;
-  }
-  
-  
-  /** Estilos de globos de texto de cada servicio **/
-  
-  .descripcion {
-    width: 270px;
-    padding: 20px;
-    margin-left: -331px;
-    margin-top: 85px;
-    border-radius: 5px;
-    box-shadow: 10px 10px 10px -5px rgba(0,0,0,0.62);
-  }
-  
-  .descripcion.on{
-    visibility: visible;
-    width: 270px;
-    padding: 20px;
-    margin-left: -331px;
-    margin-top: 85px;
-    border-radius: 5px;
-    box-shadow: 10px 10px 10px -5px rgba(0,0,0,0.62);
-  }
-  
-  
-  /** Estilos de la de la Galeria **/
-  
-  .galeria {
-    width: 500px;
-    height: 640px;
-  }
-  
-  .esquina {
-    height: 100px;
-  }
-  
-  .esquina.inferior {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    transform: scale(-1);
-  }
-  
-  #contenido-galeria {
-    grid-template-columns: repeat(8, 140px);
-  }
-  
-  .contenido-galeria-limites {
-    z-index: 2;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    width: 420px;
-    height: auto;
-    padding: 40px 40px 0 40px;
-  }
-  
-
-  .cuadro-galeria {
-    z-index: 3;
-    margin: 10px;
-  }
-  
-  #btn-prev, #btn-next {
-    z-index: 5;
-    width: 35px;
-    height: 35px;
-    top: 50%;
-    border-radius: 50%;
-  }
-
-  
-  #btn-prev {
-    left: 0px
-  }
-  
-  #btn-next {
-    right: 0px;
-  }
-  
-  /** Estilos de cada cuadro de la Galeria **/
- 
-  .col1 {
-    display: grid;
-    grid-template-rows: repeat(4, 140px);
-  }
-  
-  .col2 {
-    display: grid;
-    grid-template-rows: repeat(4, 140px);
-  }
-  
-  .col3 {
-    display: grid;
-    grid-template-rows: repeat(4, 140px);
-  }
-  
-  .col4 {
-    display: grid;
-    grid-template-rows: repeat(4, 140px);
-  }
-  
-
-  
-  /** Barra final **/
-  
-  .barra-final {
-    width: 100%;
-    height: 195px;
-  }
-  
-  .icono-blanco {
-    height: 60px;
-  }
-  
-  .escribenos p {
-    font-size: 21px;
-  }
-
-  .lima-peru {
-    margin-top: 20px;
-    font-size: 19px;
-  }
-  .copyright {
-    font-size: 15px;
-    left: 50px;
-    bottom: 15px;
-  }
-  
-  .powered {
-    font-size: 15px;
-    right: 50px;
-    bottom: 15px;
   }
 }
