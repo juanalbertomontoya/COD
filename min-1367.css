@@ -1,4 +1,4 @@
-@media (min-width: 700px) {
+@media (min-width: 1367) {
 
 
   * {
@@ -7,7 +7,7 @@
   .body-margin {
     padding: 14.934vw 5.124vw 5.124vw 5.124vw;
     overflow: hidden;
-    width: 1349px;
+    width: auto;
     margin: auto;
   }
   
