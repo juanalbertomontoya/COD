@@ -549,6 +549,7 @@
 }
 
 #btn-prev, #btn-next {
+  z-index: 10;
   position: absolute;
   display: flex;
   align-content: center;
