@@ -246,6 +246,8 @@ moverFull();
 
 $(".exit").on("click", function () {
 
+  //* Elimina las imagenes en el fullscreen *//
+
     $("#body-top > div.galeria-fullscreen.on > div > div > div.imagenfull.on > div.contenedor-imagenfull > div > span").remove();
 
   //elimina el contenido completo de la galeria//
