@@ -559,11 +559,12 @@ body {
   align-content: center;
   justify-content: center;
   width: 7%;
-  height: 5.4%;
+  height: 5.48%;
   top: 50%;
   border-radius: 50%;
   background: hsla(126, 57%, 48%, 0.7);
   cursor: pointer;
+  transform: translateY(-50%);
   transition: all 0.3s ease-in;
 }
 
@@ -1103,7 +1104,6 @@ section.off {
   }
 
   .slider {
-    height: calc(100vh - 100px);
     margin-top: 100px;
     grid-template-columns: none;
     grid-template-rows: 1fr 1fr;
@@ -1138,7 +1138,7 @@ section.off {
   .galeria-info {
     grid-gap: 50px;
     grid-template-columns: none;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto auto;
   }
 
   .galeria {
@@ -1152,6 +1152,12 @@ section.off {
 
   .galeria-info h3 {
     font-size: 36px;
+  }
+
+  #btn-prev,
+  #btn-next {
+  width: 9%;
+  height: 7.03%;
   }
 
 }
@@ -1168,7 +1174,6 @@ section.off {
   /** Estilos del Slider **/
 
   .slider {
-    height: calc(100vh - 16.667vw);
     margin-top: 16.667vw;
     margin-bottom: 10vw;
   }
@@ -1225,6 +1230,8 @@ section.off {
   .icono-subtitulo {
     height: 3.5vw;
   }
+
+ 
   
   /** Estilos de globos de texto de cada servicio **/
   
