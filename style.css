@@ -1095,6 +1095,8 @@ section.off {
   }
   
   .menu-boton {
+    width: 51px;
+    height: 51px;
     display: inline;
     position: absolute;
     margin-left: 10px;
@@ -1161,28 +1163,7 @@ section.off {
     width: 83.333vw;
   }
 
-  .menu {
-    padding: 1.667vw 0;
-  }
-  
-  .menu-elemento a {
-    font-size: 2.982vw;
-    padding: 1.667vw 1.333vw 1.333vw 1.333vw;
-    border: 0.333vw;
-  }
-  
-  
-  .logo-menu img {
-    height: 8.5vw;
-  }
-  
-  .logo-menu img.scroll {
-    height: 8.5vw;
-  }
-  
-  .menu-boton {
-    margin-left: 1.667vw;
-  }
+
 
   /** Estilos del Slider **/
 
