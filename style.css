@@ -32,23 +32,23 @@ body {
 }
 
 h1 {
-  font-family: "Metropolis Black";
+  font-family: "Metropolis Black", sans-serif;
 }
 
 h2 {
-  font-family: "Metropolis Regular";
+  font-family: "Metropolis Regular", sans-serif;
 }
 
 p {
-  font-family: "Metropolis Regular";
+  font-family: "Metropolis Regular", sans-serif;
 }
 
 h3 {
-  font-family: "Metropolis Medium";
+  font-family: "Metropolis Medium", sans-serif;
 }
 
 a {
-  font-family: "Metropolis Medium";
+  font-family: "Metropolis Medium", sans-serif;
 }
 
 /** Estilos del menu **/
