@@ -87,7 +87,7 @@ $("#educacional").click(function () {
   $("#educacional > .descripcion").toggleClass("on");
   $(".tipos-proyectos > li:not(#educacional) > .descripcion").removeClass("on")
   $("#educacional > .contenedor > p > .barra-texto").toggleClass("on");
-  $(".tipos-proyectos > li:not(#eduacional) > .contenedor > p > .barra-texto").removeClass("on");
+  $(".tipos-proyectos > li:not(#educacional) > .contenedor > p > .barra-texto").removeClass("on");
 });
 
 //Privadas

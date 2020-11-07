@@ -13,6 +13,44 @@ body {
   overflow: hidden;
 }
 
+/** Estilos de las fuentes **/
+
+
+@font-face {
+  font-family: "Metropolis Black";
+  src: url("fonts/Metropolis-Bold.otf");
+}
+
+@font-face {
+  font-family: "Metropolis Regular";
+  src: url("fonts/Metropolis-Regular.otf");
+}
+
+@font-face {
+  font-family: "Metropolis Medium";
+  src: url("fonts/Metropolis-Medium.otf");
+}
+
+h1 {
+  font-family: "Metropolis Black";
+}
+
+h2 {
+  font-family: "Metropolis Regular";
+}
+
+p {
+  font-family: "Metropolis Regular";
+}
+
+h3 {
+  font-family: "Metropolis Medium";
+}
+
+a {
+  font-family: "Metropolis Medium";
+}
+
 /** Estilos del menu **/
 
 .menu {
@@ -65,8 +103,7 @@ body {
 
 .menu-elemento a {
   position: relative;
-  font-family: "Avenir Medium";
-  font-size: 17.895px;
+  font-size: 17px;
   letter-spacing: 0.05em;
   color: #ababab;
   padding: 10px 8px 8px 8px;
@@ -235,12 +272,15 @@ body {
   overflow: hidden;
 }
 
-.titulo-tenemos,
-.titulo-somos {
-  font-family: "Avenir";
-  font-size: 52px;
+.titulo-tenemos > h2,
+.titulo-somos > h2 {
+  font-size: 48px;
   line-height: 1.2em;
   color: #35bf42;
+}
+
+.titulo-tenemos-bold > h1 {
+  display: inline;
 }
 
 .titulo-somos {
@@ -301,16 +341,14 @@ body {
 
 .titulo-tenemos-bold,
 .titulo-somos-bold {
-  position: relative;
-  font-family: "Avenir Black";
-  font-weight: 800;
-  font-size: 52px;
+  font-size: 49px;
   line-height: 1.2em;
   color: #35bf42;
 }
 
 .slider-titulo {
-  display: inline-block;
+  position: relative;
+  display: inline;
 }
 
 .slider-titulo span {
@@ -364,10 +402,15 @@ body {
   }
 }
 
-.somos-tenemos h2 {
+.somos-tenemos > div > div > h2 {
   z-index: 2;
-  font-family: "Avenir";
-  font-size: 30px;
+  font-size: 28px;
+  color: #9b9b9b;
+}
+
+.contenedor-somos-h2 h2 {
+  z-index: 2;
+  font-size: 28px;
   color: #9b9b9b;
 }
 
@@ -392,12 +435,11 @@ body {
   grid-template-rows: 27px 1fr;
 }
 
-.galeria-info h3 {
+.galeria-info h1 {
   padding-top: 0;
-  font-family: "Avenir";
   font-weight: 800;
   color: #35bf42;
-  font-size: 27px;
+  font-size: 26px;
 }
 
 .tipos-proyectos {
@@ -412,9 +454,8 @@ body {
 }
 
 .tipos-proyectos li {
-  font-family: "Avenir Medium";
   color: #35bf42;
-  font-size: 16.5px;
+  font-size: 15.5px;
   display: flex;
   align-items: center;
   margin-bottom: 12px;
@@ -739,25 +780,21 @@ section.off {
 
 .escribenos p {
   display: inline;
-  font-family: "Avenir";
   font-size: 21px;
   color: white;
 }
 
 .escribenos p a {
-  font-family: "Avenir Black";
   text-decoration: none;
   color: white;
 }
 
 .lima-peru {
   margin-top: 20px;
-  font-family: "Avenir Black";
   font-size: 20px;
   color: white;
 }
 .copyright {
-  font-family: "Avenir";
   font-size: 15px;
   color: white;
   position: absolute;
@@ -766,7 +803,6 @@ section.off {
 }
 
 .powered {
-  font-family: "Avenir";
   font-size: 15px;
   color: white;
   position: absolute;
@@ -814,7 +850,6 @@ section.off {
 }
 
 .textoimagenfull {
-  font-family: "Avenir Medium";
   font-size: 30x;
   color: white;
   font-size: 28px;
@@ -971,16 +1006,20 @@ section.off {
     width: 582px;
   }
 
-  .titulo-tenemos, .titulo-somos {
-    font-size: 41px;
+  .titulo-tenemos h2, .titulo-somos h2 {
+    font-size: 38px;
   }
 
   .titulo-tenemos-bold, .titulo-somos-bold {
-    font-size: 41px;
+    font-size: 39px;
   }
 
-  .somos-tenemos h2 {
-    font-size: 24px;
+  .somos-tenemos > div > div > h2 {
+    font-size: 22px;
+  }
+
+  .contenedor-somos-h2 h2 {
+    font-size: 22px;
   }
 
   .seccion-info {
@@ -1150,7 +1189,7 @@ section.off {
     font-size: 22px;
   }
 
-  .galeria-info h3 {
+  .galeria-info h1 {
     font-size: 36px;
   }
 
@@ -1174,8 +1213,8 @@ section.off {
   /** Estilos del Slider **/
 
   .slider {
-    margin-top: 16.667vw;
-    margin-bottom: 10vw;
+    margin-top: 100px;
+    margin-bottom: 60px;
   }
 
   .imagen-slider {
@@ -1190,19 +1229,23 @@ section.off {
     width: 76.667vw;
   }
   
-  .titulo-tenemos,
-  .titulo-somos {
-    font-size: 6.833vw;
+  .titulo-tenemos h2,
+  .titulo-somos h2 {
+    font-size: 6.333vw;
   }
   
   .titulo-tenemos-bold,
   .titulo-somos-bold {
-    font-size: 6.833vw;
+    font-size: 6.5vw;
   }
   
-  .somos-tenemos h2 {
-    font-size: 4vw;
+  .somos-tenemos > div > div > h2 {
+    font-size: 3.666vw;
   }
+
+  .contenedor-somos-h2 h2 {
+    font-size: 3.66vw;
+}
   
   /** Estilos de la info de la Galeria **/
   
@@ -1219,7 +1262,7 @@ section.off {
     font-size: 3.667vw;
   }
 
-  .galeria-info h3 {
+  .galeria-info h1 {
     font-size: 6vw;
   }
   
@@ -1291,7 +1334,6 @@ section.off {
   
   .barra-final {
     height: 32.5vw;
-    margin-top: 8.333vw;
   }
   
   .icono-blanco {
@@ -1359,7 +1401,6 @@ section.off {
   }
   
   .textoimagenfull {
-    font-family: "Avenir Medium";
     font-size: 30x;
     color: white;
     font-size: 28px;
